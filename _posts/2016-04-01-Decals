@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Decals"
+date:   2016-04-01 14:59:12
+categories: Green Five Development Update
+---
+
+I spent a few hours last night looking into ways to generate and use decals. Decals weren't something I had any experience with
+until now. Recently I saw some examples of normal mapped decals being used to show some very cool looking deformations on materials.
+Naturally, I wondered how to implement something similar in Unity so I went ahead and did some research. Turns out, it's all pretty
+easy.
+
+Easy--yet there is quite a bit more depth than I was expecting. Instantiating normal mapped geometry onto objects to create realistic
+looking deformation of surfaces is only the beginning. There are all sorts of interesting effects that can be achieved using the projector,
+camera target textures and UV animation scripts.
+
+It was a little too interesting though, by the time I was able tp pull away from it I didn't have much time left for scripting. 
+Neverthehless, I went ahead and made some placeholder decals for each material type. For the time being, I placed these on quads
+using the standard shader set to cutout. I went with instantiatied geometry because I don't think there is a way to use normal 
+mapping with projection textures, though there may be a custom shader for this somewhere. After this i went ahead and added the
+lines of code necessary to place the decal prefabs at the impact points.
+
+The melee script now places different decals, plays different particle systems and different sounds based on the tag of the object 
+it is hitting. I will probably have to change this later on if I need the tags for something else. In that case I'll probably
+use a script that just contains a class with one string variable and then check for the value of that string rather than the tag.
+I also need to add an object pool because right now I'm just using destroy to clean up the decals. It will probably be better both
+peformance wise and aesthetically to let a set number of decals persist in the scene.
+
+I also spent some time working out the player progression system. More on that later.
