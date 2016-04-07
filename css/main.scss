@@ -15,7 +15,7 @@ $spacing-unit:     30px;
 
 $text-color:       #fff;
 $background-color: #222;
-$brand-color:      #fff;
+$brand-color:      #00ff00;
 
 $grey-color:       #fff;
 $grey-color-light: lighten($grey-color, 40%);
@@ -28,10 +28,6 @@ $on-palm:          60%px;
 $on-laptop:        60%px;
 
 .site-header {
-    background-color: #00ff00;
-}
-
-.site-footer {
     background-color: #00ff00;
 }
 
