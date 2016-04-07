@@ -31,11 +31,6 @@ $on-laptop:        60%px;
     background-color: #00ff00;
 }
 
-.site-header:link {
-    text-color: #000;
-    background-color: #000;
-}
-
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
