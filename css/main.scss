@@ -27,7 +27,9 @@ $content-width:    60%;
 $on-palm:          60%px;
 $on-laptop:        60%px;
 
-
+.site-header {
+    background-color: #00ff00;
+}
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
