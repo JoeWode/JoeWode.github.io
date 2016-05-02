@@ -10,7 +10,7 @@ I've been implementing new systems for the game and i wanted them to be complete
 to actually be something for the player to do other than a few incomplete story actions and smacking things with a pipe. Honestly, I
 probably shouldn't be releasing anything at all until I hit the alpha stage.
 
-I will probably do one more pre-alpha build before then however just to show off some of what I've ben working on.
+I will probably do one more pre-alpha build before then however just to show off some of what I've been working on.
 
 Speaking of which, the new inventory system is live. Players can pick up, throw, drop, or store items they find in the environment.
 At the moment this is simply health pickups, ammo, and weapons. I'm working on a few deployable items like mines and sentries and 
